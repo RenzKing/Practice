@@ -16,3 +16,19 @@ body {
   min-height: 100vh;
   background-size: cover;
 }
+
+.nav-links {
+  margin: auto;
+  padding-right: 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: right;
+  align-items: top;
+  position: relative;
+}
+
+nav a {
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+}
