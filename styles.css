@@ -2,18 +2,42 @@
   margin: 0;
   padding: 0;
 }
+
 nav {
   color: #fff;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+
+}
+.logo{
+  height: 40px;
+  width:40px;
 }
 
+nav ul {
+  list-style: none;
+  margin:auto;
+  padding:auto;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li {}
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("img/bg.jpg");
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
   min-height: 100vh;
   background-size: cover;
 }
 
+.container{
+ width:700px;
+ margin: 0 auto;
+}
