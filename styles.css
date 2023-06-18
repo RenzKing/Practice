@@ -21,6 +21,7 @@ nav {
 }
 
 nav img {
+  padding: 5px;
   width: 85px;
   height: 70px;
 }
@@ -130,12 +131,58 @@ nav .fa {
   }
 }
 
+/* Why Choose Us */
+
+.why-choose-us {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.why-choose-us-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.why-choose-us img {
+  width: 100%;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer:hover {
+  background: rgba(1, 104, 164, 0.633);
+}
+
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+}
+
 /* Services */
 .services {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 h1 {
@@ -180,50 +227,4 @@ h3 {
   .row {
     flex-direction: column;
   }
-}
-
-/* Why Choose Us */
-
-.why-choose-us {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.why-choose-us-col {
-  flex-basis: 32%;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  position: relative;
-  overflow: hidden;
-}
-
-.why-choose-us img {
-  width: 100%;
-}
-
-.layer {
-  background: transparent;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.5s;
-}
-
-.layer:hover {
-  background: rgba(1, 104, 164, 0.633);
-}
-
-.layer h3 {
-  width: 100%;
-  font-weight: 500;
-  color: #fff;
-  font-size: 26px;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
-  position: absolute;
 }
